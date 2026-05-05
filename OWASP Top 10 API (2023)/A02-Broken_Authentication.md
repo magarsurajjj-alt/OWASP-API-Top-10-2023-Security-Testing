@@ -58,17 +58,14 @@ Authentication is verified using:
 
 ### Step 3: Brute Force Setup (Postman Runner)
 
-An attacker prepares a collection of usernames and passwords:
-
-Example dataset:
-
-user1,password1
-user1,123456
+An attacker prepares a collection of usernames and passwords:[data.txt](https://github.com/user-attachments/files/27389471/data.txt)
+username,password
+user1,123
 user1,admin
-user2,password2
-user2,1234
+user1,password
+user1,password1
+user1,wrongpass
 suraj,suraj123
-
 
 These credentials are added into Postman Collection Runner.
 
