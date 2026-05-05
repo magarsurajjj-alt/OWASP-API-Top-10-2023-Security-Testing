@@ -1,0 +1,50 @@
+# 🧰 Tools Used in This Project
+
+This document lists all tools and technologies used in the OWASP API Top 10 2023 Vulnerable API Lab.
+
+---
+
+## 💻 Development Environment
+
+- **VS Code** – Primary code editor used for development
+- **Python 3.x** – Core programming language
+
+---
+
+## ⚙️ Backend Framework
+
+- **Flask** – Lightweight web framework used to build REST APIs
+- **Flask-HTTPAuth** – Used for implementing Basic Authentication
+
+---
+
+## 🔐 Security & Utilities
+
+- **Werkzeug** – Used for password hashing and verification
+- **Flasgger** – Generates Swagger UI for API documentation and testing
+
+---
+
+## 📮 API Testing Tools
+
+- **Postman** – Used for API testing and security attack simulation
+- **Swagger UI** – Interactive API documentation for testing endpoints
+
+---
+
+## 🌐 Runtime Environment
+
+- **Localhost (127.0.0.1)** – APIs run locally for testing purposes
+
+---
+
+## 🧪 Security Focus
+
+This project demonstrates vulnerabilities based on:
+**OWASP API Security Top 10 (2023)**
+
+---
+
+## 📌 Purpose
+
+To simulate real-world API security flaws for learning and ethical hacking practice.
