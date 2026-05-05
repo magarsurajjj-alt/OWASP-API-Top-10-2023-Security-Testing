@@ -59,6 +59,7 @@ Authentication is verified using:
 ### Step 3: Brute Force Setup (Postman Runner)
 
 An attacker prepares a collection of usernames and passwords:[data.txt](https://github.com/user-attachments/files/27389471/data.txt)
+```
 username,password
 user1,123
 user1,admin
@@ -66,7 +67,7 @@ user1,password
 user1,password1
 user1,wrongpass
 suraj,suraj123
-
+```
 These credentials are added into Postman Collection Runner.
 
 ---
@@ -81,10 +82,11 @@ Postman Runner executes multiple login attempts automatically.
 
 ---
 
-## 📸 Evidence (Add Your Screenshot)
+## 📸 Evidence (Screenshot)
 
 
-screenshots/brute-force.png
+<img width="1365" height="767" alt="bruteforce_attempt" src="https://github.com/user-attachments/assets/e37b958e-39db-4c2b-92af-089851eb93c9" />
+<img width="1363" height="767" alt="authetication test" src="https://github.com/user-attachments/assets/35aff52f-ab42-44ed-84d7-47e22e942fcf" />
 
 
 ---
