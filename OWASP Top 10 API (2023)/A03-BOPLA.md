@@ -36,6 +36,11 @@ It is a simple Flask API built for **learning and testing how improper field-lev
 - Postman (for testing)
 
 ---
+## Screenshots
+<img width="1365" height="767" alt="BOPLA_request_valid" src="https://github.com/user-attachments/assets/7d7ea81b-c06b-4eae-a042-26eaf7915302" />
+
+<img width="1365" height="767" alt="BOPLA_vulne" src="https://github.com/user-attachments/assets/35ea8e95-cdee-4a83-9e1d-c49266cee76c" />
+
 
 ## 🚀 How to Run
 
