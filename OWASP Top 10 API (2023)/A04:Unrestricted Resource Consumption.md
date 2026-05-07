@@ -71,8 +71,11 @@ OR sends repeated requests using automation tools.
 ---
 
 ## 📸 Evidence (Add Your Screenshot)
+<img width="1365" height="767" alt="Configure Iterations" src="https://github.com/user-attachments/assets/539ae960-33be-4e12-b989-ff18565add58" />
 
-*(Add Postman Runner, CPU usage, or Flask logs here)*
+<img width="1365" height="767" alt="Runner_collection_requests" src="https://github.com/user-attachments/assets/1264a36b-73a6-4fb4-890c-7e1c7744845d" />
+
+<img width="1365" height="767" alt="Request_allowed" src="https://github.com/user-attachments/assets/2b3666ba-0293-45c4-a82f-07e56e05ea37" />
 
 ---
 
