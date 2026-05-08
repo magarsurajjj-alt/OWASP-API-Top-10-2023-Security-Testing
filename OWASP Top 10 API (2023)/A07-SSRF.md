@@ -34,6 +34,13 @@ Do NOT deploy it on the internet or production systems.
 - Intentionally vulnerable SSRF endpoint
 
 ---
+## Screenshots
+<img width="1365" height="767" alt="A07-SSRF_test2" src="https://github.com/user-attachments/assets/d3afa599-483c-443f-aab3-e520eaf329b7" />
+<img width="1365" height="767" alt="A07-SSRF_test_1" src="https://github.com/user-attachments/assets/78040bd3-aa81-4988-937b-592aa3a0fb5c" />
+<img width="1365" height="767" alt="A07-SSRF_normal_request" src="https://github.com/user-attachments/assets/abe5884f-3217-4376-a906-694f38b1c0fd" />
+
+
+
 
 # ⚙️ Installation
 
