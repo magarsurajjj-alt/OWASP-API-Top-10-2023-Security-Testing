@@ -75,9 +75,12 @@ app.py
 pip install flask
 2. Run the application
 python app.py
+
 3. Server will start at
 http://127.0.0.1:5001
+
 📡 API Endpoints
+
 🛒 1. Buy Product
 POST /buy
 Body (x-www-form-urlencoded):
@@ -91,6 +94,7 @@ Response:
   "remaining_wallet": 800,
   "remaining_stock": 4
 }
+
 💰 2. Redeem Coupon
 POST /redeem
 Body:
@@ -126,11 +130,14 @@ Send requests to:
 /buy
 /redeem
 /reset-stock
+
 Repeat requests multiple times
 Observe:
 wallet manipulation
 stock manipulation
 lack of limits
+
+
 🔥 Security Issue Demonstrated
 Issue	Description
 No rate limiting	APIs can be spammed
