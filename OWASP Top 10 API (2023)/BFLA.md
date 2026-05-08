@@ -52,6 +52,13 @@ Example:
 | 2      | user  |
 
 ---
+## Screenshots
+
+<img width="1365" height="767" alt="BFLA_vulne" src="https://github.com/user-attachments/assets/b755de93-6c4b-4c8a-8c5b-fc82709170fa" />
+<img width="1365" height="767" alt="BFLA_user_response" src="https://github.com/user-attachments/assets/fe16d9af-3894-4caf-a9ca-5fba35b399a9" />
+
+
+
 
 ## ▶️ How to Run
 
