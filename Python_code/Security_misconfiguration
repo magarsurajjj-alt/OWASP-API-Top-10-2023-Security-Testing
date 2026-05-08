@@ -1,0 +1,54 @@
+from flask import Flask, request, jsonify
+from flasgger import Swagger
+from flask_cors import CORS
+
+app = Flask(__name__)
+# ❌ API8 ISSUE 1: Debug mode enabled (should NEVER be in production)
+app.config['DEBUG'] = True
+# ❌ API8 ISSUE 2: Open CORS policy (allows all origins)
+CORS(app, resources={r"/*": {"origins": "*"}})
+# ❌ API8 ISSUE 3: Swagger exposed without authentication
+swagger = Swagger(app)
+# ❌ API8 ISSUE 4: Hardcoded default credentials
+ADMIN_USER = "admin"
+ADMIN_PASS = "admin123"
+
+@app.route('/api/login', methods=['POST'])
+def login():
+    data = request.json
+
+    username = data.get("username")
+    password = data.get("password")
+
+    # ❌ weak authentication logic
+    if username == ADMIN_USER and password == ADMIN_PASS:
+        return jsonify({
+            "message": "Login successful",
+            "role": "admin"
+        })
+
+    return jsonify({"message": "Invalid credentials"}), 401
+
+
+@app.route('/api/debug')
+def debug_info():
+    # ❌ API8 ISSUE 5: exposing internal debug info
+    return {
+        "env": "development",
+        "secret_key": app.config.get("SECRET_KEY", "not-set"),
+        "database": "sqlite:///test.db"
+    }
+
+
+@app.route('/api/data')
+def data():
+    # ❌ API8 ISSUE 6: no access control + verbose error leakage risk
+    return jsonify({
+        "message": "Sensitive system data exposed",
+        "status": "running"
+    })
+
+
+if __name__ == '__main__':
+    # ❌ API8 ISSUE 7: running on 0.0.0.0 without security restrictions
+    app.run(host="0.0.0.0", port=5000)
