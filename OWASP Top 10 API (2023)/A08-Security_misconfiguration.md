@@ -1,28 +1,31 @@
-🔴 API8: Security Misconfiguration
+### 🔴 API8: Security Misconfiguration
 📌 OWASP Category
 
-API8: Security Misconfiguration (OWASP API Security Top 10 2023)
+### API8: Security Misconfiguration (OWASP API Security Top 10 2023)
 
-🧠 What is API8?
+#🧠 What is API8?
 
-Security Misconfiguration occurs when an API is exposed or deployed with unsafe settings, such as:
+-Security Misconfiguration occurs when an API is exposed or deployed with unsafe settings, such as:
 
-Debug or internal endpoints exposed
+##Debug or internal endpoints exposed
 Missing access control
 Insecure default configuration
 Sensitive information leakage
-⚠️ Vulnerability in This Project
+##⚠️ Vulnerability in This Project
 
-In this API, insecure configuration leads to exposure of internal system information and unprotected endpoints.
+## In this API, insecure configuration leads to exposure of internal system information and unprotected endpoints.
 
-No Swagger or API documentation is used in this project.
 
-📍 Affected Endpoints (Postman Tested)
+##📍 Affected Endpoints (Postman Tested)
+```
 🔹 Debug Information Leak
 GET http://localhost:5000/api/debug
 🔹 Public Data Endpoint (No Authentication)
 GET http://localhost:5000/api/data
 🧪 Attack Scenario (Postman Testing)
+```
+-----------------------------------
+```
 Step 1: Access Debug Endpoint
 GET /api/debug
 Result:
@@ -34,10 +37,17 @@ Result:
 Data is accessible without authentication
 No access control is enforced
 📸 Evidence (Add Your Postman Screenshots)
+```
+--------------------------------------
+##Screenshots
+<img width="1365" height="767" alt="A08-Sensitive data Expose" src="https://github.com/user-attachments/assets/f1f28c37-ee33-4134-9ba0-e9cc9d1a4d2b" />
+<img width="1363" height="767" alt="A08-Weak_login_test_2" src="https://github.com/user-attachments/assets/2c6a0b11-81ae-4d72-9922-1a85c2781f01" />
+<img width="1365" height="767" alt="A08-Test_1" src="https://github.com/user-attachments/assets/6c1c2d4b-9e11-456f-a81f-0fce2bd41296" />
 
 
 
-🔥 Impact of API8
+
+##🔥 Impact of API8
 Internal system information leakage
 Unauthorized access to API endpoints
 Easier attacker reconnaissance
@@ -47,24 +57,24 @@ Debug endpoint exposed in production-like environment
 Missing authentication on sensitive routes
 No access control enforcement
 Insecure configuration of API routes
-🔐 How to Fix API8
-✅ 1. Disable Debug Endpoints
+##🔐 How to Fix API8
+##✅ 1. Disable Debug Endpoints
 
-Remove or protect debug routes in production
+  Remove or protect debug routes in production
 
-✅ 2. Add Authentication
-from flask_httpauth import HTTPBasicAuth
-✅ 3. Restrict Access to Sensitive APIs
+##✅ 2. Add Authentication
+  from flask_httpauth import HTTPBasicAuth
+##✅ 3. Restrict Access to Sensitive APIs
 
-Ensure only authorized users can access endpoints
+  Ensure only authorized users can access endpoints
 
-✅ 4. Hide Internal Information
+##✅ 4. Hide Internal Information
 
-Never expose:
+  Never expose:
 
-Environment variables
-Secret keys
-Database configuration
-✅ 5. Secure Deployment
+  Environment variables
+  Secret keys
+  Database configuration
+##✅ 5. Secure Deployment
 Do not expose development endpoints publicly
 Use environment-based configuration (dev vs prod)
