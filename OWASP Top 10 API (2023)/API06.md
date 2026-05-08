@@ -64,8 +64,17 @@ app.py
 | Product | Quantity |
 |--------|----------|
 | laptop | 5        |
+<img width="1365" height="767" alt="API06-Insufficient balance" src="https://github.com/user-attachments/assets/f929df89-d300-4657-899b-1908ec419ccf" />
+<img width="1365" height="767" alt="API06-redeeming" src="https://github.com/user-attachments/assets/0f802260-ca71-4484-9eb1-fe7ff28993c4" />
+<img width="1365" height="767" alt="API06-Normal_request" src="https://github.com/user-attachments/assets/1cf36de2-64c0-4309-b2fe-030156fcc691" />
+
+<img width="1365" height="767" alt="API06-runner" src="https://github.com/user-attachments/assets/c7fcd77b-974a-4702-89ee-50dda96e0d42" />
+
 
 ---
+## Screenshots
+
+
 
 ## ▶️ How to Run
 
