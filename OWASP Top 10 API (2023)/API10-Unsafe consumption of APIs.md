@@ -31,7 +31,12 @@ It shows how a malicious or compromised external API can inject unsafe data into
 - This can lead to issues like XSS, data corruption, or logic abuse  
 
 ---
+## Sreenshots
+<img width="1365" height="767" alt="API10-vulnerable" src="https://github.com/user-attachments/assets/a44ee62e-02cb-44b5-bf27-08fd47e6c959" />
+<img width="1365" height="767" alt="API10-third_party_fake_api" src="https://github.com/user-attachments/assets/023cab68-9af7-43aa-a8fd-58d10e3484e8" />
+<img width="1365" height="767" alt="API10-main_code" src="https://github.com/user-attachments/assets/8e2561b3-a672-4bea-99c3-8d7ec36c5e5b" />
 
+----------------
 ## 🧪 How to Test (Step-by-Step)
 
 ### 🔹 Step 1 — Run Fake External API
