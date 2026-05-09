@@ -56,7 +56,15 @@ This vulnerable lab includes:
 - FFUF
 
 ---
+# Screenshots
+<img width="1365" height="767" alt="API09-old_api" src="https://github.com/user-attachments/assets/0ca1d6c0-2263-4cb9-af3a-1ea0d557291a" />
+<img width="1365" height="767" alt="API09-Secure_request" src="https://github.com/user-attachments/assets/e86430b1-afdb-4310-a26e-99e604870569" />
+<img width="1365" height="767" alt="API09-vulne_request" src="https://github.com/user-attachments/assets/f0e99695-8bb1-4142-9a51-1f1186a5f851" />
 
+
+
+
+----------------------
 # 🧪 API Endpoints
 
 ---
